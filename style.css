@@ -106,8 +106,8 @@ ul {
 
 .Mencion div {
     display: flex;
-    margin-left: 600px;
     font-size: 26px;
+    flex-wrap: wrap;
 }
 
 .mas {
@@ -122,9 +122,10 @@ ul {
     background: #3882F6;
     padding: 50px;
     color: #f9faf8;
-    gap: 400px;
+    gap: 10px;
     border-radius: 8px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cuad p {
     margin-left: 80px;
